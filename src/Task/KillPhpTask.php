@@ -1,5 +1,5 @@
 <?php
-namespace T3easy\Waves;
+namespace T3easy\Waves\Task;
 
 use TYPO3\Surf\Domain\Model\Application;
 use TYPO3\Surf\Domain\Model\Deployment;
