@@ -24,6 +24,6 @@ class KillPhpTask extends Task implements ShellCommandServiceAwareInterface
     public function execute(Node $node, Application $application, Deployment $deployment, array $options = [])
     {
         $command = 'killall -q php-cgi';
-        $this->shell->executeOrSimulate($command, $node, $deployment);
+        $this->shell->executeOrSimulate($command, $node, $deployment, true);
     }
 }
