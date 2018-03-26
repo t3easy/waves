@@ -1,7 +1,7 @@
 {
   "name": "t3easy/waves",
   "description": "TYPO3 Surf accessories",
-  "license": "GPL-3.0+",
+  "license": "GPL-3.0-or-later",
   "authors": [
     {
       "name": "Jan Kiesewetter"
